@@ -1,1 +1,17 @@
 /* Add here all your css styles (customizations) */
+.select-group select {
+  border-color: rgba(214,214,214,0.5);
+  color: #969595;
+  padding-left: 34px;
+}
+
+.panel-profile .logged-out {
+  min-height: 172px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-profile .reveal-text {
+  padding-left: 5px;
+}
