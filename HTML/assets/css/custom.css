@@ -15,3 +15,20 @@
 .panel-profile .reveal-text {
   padding-left: 5px;
 }
+
+.video-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-wrap video {
+  position: absolute;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
