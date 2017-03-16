@@ -29,6 +29,14 @@
   margin: 0;
 }
 
+.profile .profile-bio .block-grid-v1-add-info {
+  border: none;
+}
+
+.profile .profile-bio .block-grid-v1-add-info li {
+  margin-bottom: 0;
+}
+
 .center-pills {
   display: flex;
   justify-content: center;
