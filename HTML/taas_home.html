@@ -31,6 +31,7 @@
 	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
 	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
 	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css">
 	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css">
 	<!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css"><![endif]-->
@@ -113,7 +114,7 @@
 
 						<!-- Features -->
 						<li>
-							<a href="taas_about.html">
+							<a href="taas_landing_page_2.html">
 								About Us
 							</a>
 						</li>
@@ -160,15 +161,25 @@
 									<fieldset>
 										<div class="row">
 											<section class="col col-6">
-												<label class="input">
+												<label class="custom-select-container">
 													<i class="icon-prepend fa fa-map-marker"></i>
-													<input type="text" placeholder="choose location">
+													<select class="location-select custom-select" data-placeholder="choose location">
+														<option></option>
+														<option value="1">Option 1</option>
+														<option value="2">Option 2</option>
+														<option value="3">Option 3</option>
+													</select>
 												</label>
 											</section>
 											<section class="col col-6">
-												<label class="input">
+												<label class="custom-select-container">
 													<i class="icon-prepend fa fa-cogs"></i>
-													<input type="text" placeholder="choose industry">
+													<select class="industry-select custom-select" data-placeholder="choose industry">
+														<option></option>
+														<option value="1">Option 1</option>
+														<option value="2">Option 2</option>
+														<option value="3">Option 3</option>
+													</select>
 												</label>
 											</section>
 										</div>
@@ -599,12 +610,14 @@
 	<script type="text/javascript" src="assets/plugins/counter/waypoints.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/counter/jquery.counterup.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+	<script type="text/javascript" src="assets/plugins/select2/js/select2.min.js"></script>
 	<!-- JS Customization -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 	<!-- JS Page Level -->
 	<script type="text/javascript" src="assets/js/app.js"></script>
 	<script type="text/javascript" src="assets/js/plugins/owl-carousel.js"></script>
 	<script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/select2.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
 			App.init();
@@ -612,6 +625,7 @@
 			App.initParallaxBg();
 			OwlCarousel.initOwlCarousel();
 			StyleSwitcher.initStyleSwitcher();
+			Select2.initSelect2();
 		});
 	</script>
 <!--[if lt IE 9]>
