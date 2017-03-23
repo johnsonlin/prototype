@@ -108,6 +108,10 @@
   transform: translate(-50%,-50%);
 }
 
+.landing-page .subscribe-btn {
+  vertical-align: middle;
+}
+
 @media screen and (max-width: 767px) {
   .video-wrap video {
     display: none;
